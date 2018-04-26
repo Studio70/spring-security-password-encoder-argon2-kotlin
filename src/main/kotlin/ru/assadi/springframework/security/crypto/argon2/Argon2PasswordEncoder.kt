@@ -48,7 +48,7 @@ class Argon2PasswordEncoder(
     }
 
     /**
-     * The [Argon2Factory] that will be used in this object instance to verify and hash passwords.
+     * The [Argon2][de.mkammerer.argon2.Argon2] instance that will be used to verify and hash passwords.
      */
     private val argon2 = Argon2Factory.create(type, saltLength, hashLength)
 
