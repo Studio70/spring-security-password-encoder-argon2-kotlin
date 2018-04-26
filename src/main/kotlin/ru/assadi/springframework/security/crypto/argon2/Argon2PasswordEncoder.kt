@@ -12,7 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder
  * This is [PasswordEncoder] implementation that uses the Argon2 hashing functions.
  * It is capable of hashing and verifying all three Argon2 variants.
  *
- * This uses [Moritz Kammerer's Argon2 library](https://github.com/phxql/argon2-jvm)—which wraps around the native
+ * This uses [Moritz Kammerer's Argon2 library][https://github.com/phxql/argon2-jvm]—which binds against the native
  * Argon2 libraries using JNA. What this means, however, is that by default, this will only run on x86 and x86_64 based
  * machines as Mortiz' library does not include ARM/Power builds of Argon2.
  *

@@ -59,9 +59,9 @@ junitPlatform {
 }
 
 dokka {
-    moduleName = 'data'
+    moduleName = ''
     outputFormat = 'gfm'
-    outputDirectory = "$buildDir/docs"
+    outputDirectory = "docs"
     processConfigurations = ['compile']
     linkMapping {
         dir = "src/main/kotlin"
@@ -73,7 +73,7 @@ dokka {
 
 task dokkaJavadoc(type: org.jetbrains.dokka.gradle.DokkaTask) {
     outputFormat = 'javadoc'
-    outputDirectory = "$buildDir/javadoc"
+    outputDirectory = "javadoc"
 }
 
 task wrapper(type: Wrapper) {

@@ -1,0 +1,4 @@
+$dokka.format:gfm
+$dokka.linkExtension:md
+
+ru.assadi.springframework.security.crypto.argon2
